@@ -8,7 +8,7 @@ import SideBar from "./components/sidebar";
 import GridTest from "./components/gridtry";
 import { theme } from "./theme";
 
-const theme_hpe = deepMerge(theme, {
+const theme_hpe = {
   global: {
     colors: {
       "brand-1": "#00795d"
@@ -55,7 +55,7 @@ const theme_hpe = deepMerge(theme, {
       flex: false // so Tip won't get cut on a window resize
     }
   }
-});
+};
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<GridTest />, rootElement);

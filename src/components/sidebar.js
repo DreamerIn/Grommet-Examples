@@ -12,11 +12,8 @@ import {
 } from "grommet";
 
 import {
-  Analytics,
-  Calculator,
   User,
   Notification,
-  Stakeholder,
   Home,
   Vulnerability,
   Resources,

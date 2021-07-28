@@ -3,7 +3,7 @@ import SideBar from "./components/sidebar";
 import { deepMerge } from "grommet/utils";
 import hpe from "grommet-theme-hpe";
 import GridTest from "./components/gridtry";
-//Test comment
+//Test comment is not 
 const theme_hpe = deepMerge(hpe, {
   global: {
     colors: {
